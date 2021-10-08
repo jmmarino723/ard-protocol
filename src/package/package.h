@@ -11,6 +11,7 @@ class Package {
         void addData(uint8_t key, uint16_t data);
         void addData(uint8_t index, uint8_t msb, uint8_t lsb);
         bool hasValue(uint8_t key);
+        uint8_t* getBuffer();
         uint16_t getValue(uint8_t key);
         uint8_t getSize();
         uint8_t getIndex();
